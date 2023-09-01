@@ -1,0 +1,60 @@
+cd documentbody{
+
+    font-family: sans-serif;
+
+}
+
+.container{
+
+    text-align: center;
+    max-width: 1000px; /* limitar a  largura do container*/
+
+    border: 1px solid grey; /* Criar uma borda */
+
+    margin: 0 auto;
+
+}
+
+.menu {
+
+    display: flex; /*  sapinho*/
+
+    justify-content:space-around;
+
+}
+
+ 
+
+.menu li {
+    display: flex; /*  sapinho*/
+    justify-content:space-around;
+    border: 2px solid none;
+
+}
+
+.logotipo{
+
+    max-width: 200px;
+
+    height: auto;
+
+    margin: 0 auto;
+
+}
+.menu01{
+    color: white;
+}
+.text{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:22px;
+}
+.text2{
+    text-align: center;
+    text-decoration:underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text3{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

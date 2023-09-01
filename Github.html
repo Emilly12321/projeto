@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="bootstrap.bundle.min.js / bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT E GITHUB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .text {
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        
+        .project {
+            background-color: #fff;
+            border-radius: 100px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin: 0px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body class="text">
+    <header class="container">
+        <h1>GIT E GITHUB</h1>
+        <nav>
+            <ul class="menu01 menu">
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Hospedagem.html">HOSPEDAGEM</a></li>
+                <li><a href="Github.html">GIT E GITHUB</a></li>
+                <li><a href="Githubpages.html">GITHUB PAGES</a></li>
+                <li><a href="Portifolio.html">PORTIFÓLIO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section>
+        <div class="project">
+            <h1 class="text2">O QUE É GIT E GITHUB?</h1>
+            <P class="text">GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre
+                devs, utilizando o Git
+                como sistema de controle.É lá que você provavelmente vai ter seu repositório e usar no dia a dia.<BR>
+                Já o Git, ferramenta de versionamento local, que salva o estado de cada arquivo na hora do versionamento
+                e caso
+                o arquivo não sofra a alteração, ele cria um link simbólico para o arquivo não editado.</P>
+            <h2 class="text2">COMO CONFIGURAR O GIT?</h2>
+            <div style="text-align: center;">
+                <!-- Os menus suspensos são sobreposições contextuais alternáveis ​​para exibir listas de links e muito mais.  -->
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        ariza-expanded="false" aria-controls="collapseExample">
+                        Git Tutorial: Configuração e Comandos Básicos
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+
+                    <div class="card card-body text">
+                        <ul>
+                            <li><strong>Instalar o Git:</strong>
+                                <p>Baixe e instale o Git a partir do <a href="https://git-scm.com/">site oficial</a>.
+                                    Siga as
+                                    instruções de
+                                    instalação para o seu sistema operacional.</p>
+                            </li>
+                            <li><strong>Configurar Nome e Email:</strong>
+                                <p>Abra um terminal (ou prompt de comando no Windows) e configure seu nome e email
+                                    usando os
+                                    seguintes
+                                    comandos:</p>
+                                <pre><code>git config --global user.name "Seu Nome"
+                        git config --global user.email "seuemail@example.com"</code></pre>
+                            </li>
+                            <li><strong>Configurar Editor de Texto (opcional):</strong>
+                                <p>Por padrão, o Git usa o editor de linha de comando para mensagens de commit. Se você
+                                    preferir
+                                    usar um
+                                    editor de texto diferente, configure-o com:</p>
+                                <pre><code>git config --global core.editor "nome_do_editor"</code></pre>
+                            </li>
+                            <li><strong>Verificar Configurações:</strong>
+                                <p>Você pode verificar suas configurações usando:</p>
+                                <pre><code>git config --list</code></pre>
+                            </li>
+                            <li><strong>Clonar um Repositório Existente:</strong>
+                                <p>Para clonar um repositório existente, navegue até o diretório onde deseja que o
+                                    repositório
+                                    seja clonado
+                                    e execute:</p>
+                                <pre><code>git clone URL_do_Repositório</code></pre>
+                            </li>
+                            <li><strong>Criar um Novo Repositório:</strong>
+                                <p>Se você deseja criar um novo repositório local, vá até o diretório do seu projeto e
+                                    execute:
+                                </p>
+                                <pre><code>git init</code></pre>
+                            </li>
+                            <li><strong>Adicionar e Confirmar Mudanças:</strong>
+                                <p>Adicione as mudanças que deseja commitar usando:</p>
+                                <pre><code>git add arquivo(s)</code></pre>
+                                <p>E então faça o commit das mudanças:</p>
+                                <pre><code>git commit -m "Mensagem do Commit"</code></pre>
+                            </li>
+                            <li><strong>Conectar a um Repositório Remoto:</strong>
+                                <p>Se você deseja conectar seu repositório local a um repositório remoto, use:</p>
+                                <pre><code>git remote add origin URL_do_Repositório_Remoto</code></pre>
+                            </li>
+                            <li><strong>Enviar Mudanças para o Repositório Remoto:</strong>
+                                <p>Após adicionar e confirmar suas mudanças, você pode enviá-las para o repositório
+                                    remoto com:
+                                </p>
+                                <pre><code>git push origin branch_principal</code></pre>
+                            </li>
+                            <li><strong>Atualizar seu Repositório Local:</strong>
+                                <p>Para atualizar seu repositório local com as mudanças do repositório remoto, use:</p>
+                                <pre><code>git pull origin branch_principal</code></pre>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+            </div>
+            <br>
+            <h2 class="text2">COMO CONFIGURAR O SSH?</h2>
+            <div style=" text-align: center;" class="container">
+                <b>
+                    <div style="width: -500px;">
+                        <img src="assets/img/Captura de tela 2023-08-30 151341 - Copia.png">
+                    </div>
+                    <div style="width: auto;">
+                        <img src="assets/img/Captura de tela 2023-08-30 151252.png">
+                    </div>
+                </b>
+            </div>
+            <br>
+            <div class="text">
+                <div>
+                    <h2 class="text2">COMO CLONAR UM REPOSITÓRIO?</h2>
+                    <br>
+                    <h4 style="text-decoration: underline;">Criar um Repositório no GitHub:</h4>
+                    <p>-Faça login na sua conta do GitHub. <br>
+                        -Clique no sinal de "+" no canto superior direito e selecione "New Repository".<br>
+                        -Preencha o nome do repositório, descrição e outras configurações.<br>
+                        -Clique em "Create Repository". </p>
+                    <br>
+                    <h4 style="text-decoration: underline;">Clonar um Repositório Existente:</h4>
+
+                    <p>-No GitHub, vá para a página do repositório que deseja clonar. <br>
+                        -Clique no botão "Code" (ou "Clone") e copie a URL do repositório.<br>
+                        -No seu computador, abra o terminal.<br>
+                        -Navegue até o diretório onde deseja clonar o repositório.<br>
+                        -Execute o comando: git clone URL_do_Repositório.</P>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
